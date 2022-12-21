@@ -1,0 +1,539 @@
+
+
+/* overall background color */
+
+body {
+    background-color: rgb(255, 254, 245);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+/* Header and Nav styling */
+
+header {
+    background-color: rgb(8, 8, 15);
+    color: rgb(233, 231, 233);
+  
+}
+
+.head-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 1rem;
+}
+
+#head-name {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 1vw;
+}
+
+#name {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 180%;
+    padding: 10px 20px;
+    text-shadow: 2px 2px rgba(170, 148, 171, 0.492);
+    
+}
+
+.top-nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.head-links {
+    border-right: 1px solid rgb(234, 231, 255);
+}
+
+.head-links a{
+    padding: 10px 12px;
+}
+
+.head-links:hover a{
+    background-color: rgb(234, 231, 255);
+    color: rgb(8, 8, 15);
+    cursor: pointer;
+}
+
+.head-links a {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+/* picture/phrase under header */
+
+.image {
+    
+    max-width: 100%;
+}
+.picture {
+    align-items: flex-end;
+    background-image: url(./pexels-photo-799273.jpg);
+    background-position: 50% 54%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 300px;
+    justify-content: flex-end;
+   
+}
+
+.phrase {
+    color: rgb(233, 231, 233);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.7rem;
+    margin-right: 15px;
+text-shadow: 2px 2px rgba(128, 114, 129, 0.492);
+}
+
+/* main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    max-width: 100%;
+}
+/* About Me */
+
+.about-me{
+    color: rgb(23, 23, 74);
+    display: flex;
+    /* height: 250px; */
+}
+
+.about h1{
+    font-size: 2rem;
+    margin-left: auto;
+    margin-top: 5vh;
+    padding-right: 1vw;
+    text-align: right;
+    width: 300px;
+}
+
+.about-para {
+    border-left:  3px solid rgb(8, 8, 15);
+    font-size: .9rem;
+    line-height: 1.3;
+    margin: 5vh 3vw 3vh 1.5vw;
+    max-width: 100%;
+   
+}
+
+.about-para p {
+    margin-left: 1.5vw;
+}
+
+.hydrate {
+    font-weight: bold;
+}
+
+/* Work */
+
+.work-container{
+    color: rgb(23, 23, 74);
+    display: flex;
+    margin: auto;
+    min-height: 1100px;
+    width: 100%;
+}
+
+.work-label h1 {
+    font-size: 2rem;
+    margin-left: auto;
+    margin-top: 5vh;
+    padding-right: 1vw;
+    text-align: right;
+    width: 300px;
+}
+
+
+.item-container {
+    align-content: flex-start;
+    border-left:  3px solid rgb(8, 8, 15);
+    display: flex;
+    flex-wrap: wrap;
+    font-size: .9rem;
+    margin-left: 1.5vw;
+    width: 100%;
+
+}
+
+.item-one {
+    align-items: flex-end;
+    background-image: url(./farmfresh.avif);
+    background-position: 50% 54%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid rgb(8, 8, 15);
+    display: flex;
+    height: 600px;
+    margin-left: 1.5vw;
+    margin-right: .5vw;
+    width: 100%;
+}
+.item-one:hover{
+    opacity: 70%;
+}
+
+.item:hover {
+    opacity: 70%;
+}
+
+.item-one h2 {
+ background-color:rgb(17, 17, 48);
+ color: rgb(255, 255, 255);
+ font-size: 1.4rem;
+ font-weight: bold;
+ width: 200px;
+
+}
+
+.item {
+    align-items: flex-end;
+    border: 5px solid rgb(8, 8, 15);
+    display: flex;
+    /* max-height: 200px; */
+   height: 200px;
+    min-width: auto;
+    width: 46%;
+    
+}
+
+.item h2 {
+    background-color:rgb(17, 17, 48);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+
+.two {
+    background-image: url(./photo-1612117568851-c6f49f8f0e87.avif);
+    background-position: 50% 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2vh;
+    margin-left: 1.5vw;
+    margin-top: 18px;
+}
+
+.three{
+    background-image: url(./spill.avif);
+    background-position: 50% 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2vh;
+    margin-left: 2vw;
+    margin-top: 18px;
+}
+
+.four{
+    background-image: url(./Kurt\ Angle\ Milk.jpg);
+    background-position: 50% 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 1.5vw;
+    
+}
+.five {
+    background-image: url(./Mark-Zuckerberg-Spooks-the-Internet-With-Too-Much-Sunscreen-on-His-Face-in-Hawaii-01.webp);
+    background-position: 50% 8%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-left: 2vw;
+    
+}
+
+/* Contact me  */
+
+footer{
+    
+    color: rgb(23, 23, 74);
+    display: flex;
+    min-height: 150px;
+    width: 100%;
+}
+
+.contact h1{
+    font-size: 2rem;
+    margin-left: auto;
+    margin-top: 5vh;
+    padding-right: 1vw;
+    text-align: right;
+    width: 300px;
+}
+
+.contact-info {
+    align-items: center;
+    border-left: 3px solid black;
+    display: flex;
+    justify-content: center; 
+    margin: 5vh 3vw 1vh 1.5vw;
+    width: 100%;
+}
+
+.contact-info ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 1.5vw;
+    width: 100%;
+}
+
+.foot-links {
+    color: rgb(8, 8, 15);
+    font-size: 1 rem;
+    padding: .8vw;
+    text-decoration: none;
+}
+
+.foot-links:hover {
+    background-color: rgb(8, 8, 15);
+    border-radius: 50px;
+    color: rgb(255, 254, 245);
+}
+
+/* silly hidden message */
+
+.hidden-section {
+    
+    display: flex;
+    min-height: 70px;
+    width: 100%;
+}
+.hidden {
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+     margin-bottom: 1.5vh; 
+    margin-left: 320px;
+    text-align: center;
+    width: 100%;
+
+}
+.hidden:hover{
+    cursor: pointer;
+    font-size: 0;
+}
+
+.hidden:hover::after{
+    content: attr(data-hover);
+    font-size: 1.5rem;
+}
+
+
+ @media screen and (max-width: 1030px) {
+
+    /* PHRASE */
+
+    .phrase { 
+        font-size: 1.4rem;
+    }
+
+    /* ABOUT ME */
+
+    .about-me {
+        display: block;
+    }
+
+    .about h1 {
+        text-align: center;
+        width: 100%;
+   }
+
+   .about-para {
+    border: none;
+    margin: 2rem auto;
+   }
+
+   /* WORK  */
+
+    .work-container {
+        border: none;
+        display: block;
+    }
+
+    .work-label h1 {
+        border: none;
+        margin-bottom: 5vh;
+        text-align: center;
+        width: 100%;
+    }
+
+    .item-container {
+        border: none;
+    }
+
+    /* CONTACT */
+
+.contact h1{
+    text-align: center;
+    width: 100%;
+}
+    footer {
+        display: block;
+    }
+
+    .contact-info {
+        border: none;
+    }
+ }
+
+/* HIDDEN */
+
+ .hidden-section {
+    display: flex;
+    margin-top: 1.4vh;
+    min-height: 70px;
+    width: 100%;
+}
+.hidden {
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+
+}
+
+
+@media screen and (max-width: 880px) {
+
+/* HEADER */
+
+.head-container{
+    display: block;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 1rem;
+}
+
+#head-name {
+    display: flex;
+    justify-content: center;
+}
+
+#name {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+    text-shadow: 2px 2px rgba(170, 148, 171, 0.492);
+    
+}
+
+.top-nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.head-links {
+    border-right: 1px solid rgb(234, 231, 255);
+}
+
+    /* PHRASE */
+
+    .phrase { 
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 560px){
+
+    /* Header */
+     .top-nav ul {
+        display: block;
+        text-align: center;
+        line-height: 2;
+    }
+
+    .top-nav ul a {
+        padding: 2vh 30vw;
+    }
+
+    .head-links:hover a{
+        background-color: rgb(234, 231, 255);
+        color: rgb(8, 8, 15);
+        cursor: pointer;
+        padding: 1vh vw;
+    }
+
+    /* PHRASE */
+
+    .picture{
+        align-items: flex-start;
+        justify-content: center;
+    
+    }
+    .phrase { 
+        font-size: 1.2rem;
+        margin-top: 2vh;
+    }
+
+    /* WORK */
+
+    .item-container {
+        display: block;
+        font-size: .9rem;
+        width: 100%;
+        margin: 0;
+    }
+
+    .item-one {
+        margin: 3px;
+    }
+
+    .item {
+        width: 100%;
+        margin: 3px;
+    }
+
+    /* CONTACT */
+
+  
+    .contact-info {
+        align-items: center;
+        margin: 5vh 3vw 1vh 1.5vw;
+        width: 100%;
+    }
+    
+    .contact-info ul {
+        display: block;
+        text-align: center;
+        margin-left: 1.5vw;
+        width: 100%;
+        line-height: 3;
+    }
+    
+    .foot-links {
+        color: rgb(8, 8, 15);
+        font-size: 1 rem;
+        text-decoration: none;
+    }
+    
+    .foot-links:hover {
+        background-color: rgb(8, 8, 15);
+        border-radius: 50px;
+        color: rgb(255, 254, 245);
+        padding: 1.2vh 3vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
