@@ -17,4 +17,5 @@ A responsive mock up of a professional portfolio website about MILK, built with 
 
 ## Active Link: 
 
+https://p0ptartz.github.io/mock-portfolio/
 
